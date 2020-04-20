@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <physics type="ode">
+      <max_step_size>0.0010</max_step_size>
+      <gravity>0.000000 0.000000 -9.800000</gravity>
+    </physics>
+    <!-- <plugin name="menge_plugin_randomized" filename="libmenge_plugin_randomized.so"/> -->
+    <instanced_actor name="actor0">
+      <skin>
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.mesh</filename>
+        <scale>0.15</scale>
+      </skin>
+      <pose>0 0 0 0 0 0</pose>
+      <animation name="Walk">
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.skeleton</filename>
+        <scale>1</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libInstancedActorPlugin.so" name="actor_plugin">
+        <target>1 1 0</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+      </plugin>
+    </instanced_actor>
+    <instanced_actor name="actor1">
+      <skin>
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.mesh</filename>
+        <scale>0.15</scale>
+      </skin>
+      <pose>0 0 0 0 0 0</pose>
+      <animation name="Walk">
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.skeleton</filename>
+        <scale>1</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libInstancedActorPlugin.so" name="actor_plugin">
+        <target>1 1 0</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+      </plugin>
+    </instanced_actor>
+    <instanced_actor name="actor2">
+      <skin>
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.mesh</filename>
+        <scale>0.15</scale>
+      </skin>
+      <pose>0 0 0 0 0 0</pose>
+      <animation name="Walk">
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.skeleton</filename>
+        <scale>1</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libInstancedActorPlugin.so" name="actor_plugin">
+        <target>1 1 0</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+      </plugin>
+    </instanced_actor>
+    <instanced_actor name="actor3">
+      <skin>
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.mesh</filename>
+        <scale>0.15</scale>
+      </skin>
+      <pose>0 0 0 0 0 0</pose>
+      <animation name="Walk">
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.skeleton</filename>
+        <scale>1</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libInstancedActorPlugin.so" name="actor_plugin">
+        <target>1 1 0</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+      </plugin>
+    </instanced_actor>
+    <instanced_actor name="actor4">
+      <skin>
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.mesh</filename>
+        <scale>0.15</scale>
+      </skin>
+      <pose>0 0 0 0 0 0</pose>
+      <animation name="Walk">
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.skeleton</filename>
+        <scale>1</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libInstancedActorPlugin.so" name="actor_plugin">
+        <target>1 1 0</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+      </plugin>
+    </instanced_actor>
+    <instanced_actor name="actor5">
+      <skin>
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.mesh</filename>
+        <scale>0.15</scale>
+      </skin>
+      <pose>0 0 0 0 0 0</pose>
+      <animation name="Walk">
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.skeleton</filename>
+        <scale>1</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libInstancedActorPlugin.so" name="actor_plugin">
+        <target>1 1 0</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+      </plugin>
+    </instanced_actor>
+    <instanced_actor name="actor6">
+      <skin>
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.mesh</filename>
+        <scale>0.15</scale>
+      </skin>
+      <pose>0 0 0 0 0 0</pose>
+      <animation name="Walk">
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.skeleton</filename>
+        <scale>1</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libInstancedActorPlugin.so" name="actor_plugin">
+        <target>1 1 0</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+      </plugin>
+    </instanced_actor>
+    <instanced_actor name="actor7">
+      <skin>
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.mesh</filename>
+        <scale>0.15</scale>
+      </skin>
+      <pose>0 0 0 0 0 0</pose>
+      <animation name="Walk">
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.skeleton</filename>
+        <scale>1</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libInstancedActorPlugin.so" name="actor_plugin">
+        <target>1 1 0</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+      </plugin>
+    </instanced_actor>
+    <instanced_actor name="actor8">
+      <skin>
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.mesh</filename>
+        <scale>0.15</scale>
+      </skin>
+      <pose>0 0 0 0 0 0</pose>
+      <animation name="Walk">
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.skeleton</filename>
+        <scale>1</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libInstancedActorPlugin.so" name="actor_plugin">
+        <target>1 1 0</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+      </plugin>
+    </instanced_actor>
+    <instanced_actor name="actor9">
+      <skin>
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.mesh</filename>
+        <scale>0.15</scale>
+      </skin>
+      <pose>0 0 0 0 0 0</pose>
+      <animation name="Walk">
+        <filename>/home/tingxfan/lib/gazebo/media/models/Gamechar-male.skeleton</filename>
+        <scale>1</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin filename="libInstancedActorPlugin.so" name="actor_plugin">
+        <target>1 1 0</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+      </plugin>
+    </instanced_actor>
+  </world>
+</sdf>
